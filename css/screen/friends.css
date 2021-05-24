@@ -1,0 +1,38 @@
+.information{
+    background-color: rgba(0,0,0,0.1);
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.information__text{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 10px;
+}
+
+.information i{
+    opacity: 0.5;
+}
+
+.Channel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px var(--padding-size);
+    margin: 10px 0px;
+    border-top: solid rgba(0,0,0,0.2) 1px;
+}
+
+
+.Channel__text{
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.Channel i{
+    opacity: 0.5;
+}
+

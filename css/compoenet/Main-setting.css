@@ -1,0 +1,40 @@
+.Main-Setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 20px 0px;
+}
+
+.Main-Setting__title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Main-Setting__icon i{
+    margin-left: 15px;
+}
+
+.Main-Setting_ver2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+.Main-Setting_ver2__back{
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+.Main-Setting_ver2__title{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+.Main-Setting_ver2__icon{
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+    padding-right: 15px;
+}

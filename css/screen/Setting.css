@@ -1,0 +1,29 @@
+.Settings_icon{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+
+.Settings_icon_rows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.Settings_icon_rows__main{
+    display: flex;
+    align-items: center;
+}
+
+.Settings_icon_rows__main i{
+    margin-right: 20px;
+}
+
+.Settings_icon_rows__main span{
+    font-size: 20px;
+    font-weight: 600;
+}
+

@@ -1,0 +1,139 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px var(--padding-size);
+    margin: 20px 0px;
+    box-sizing: border-box;
+}
+
+.item__columns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.item__columns i{
+    margin-bottom: 10px;
+}
+
+.Recommend{
+    box-sizing: border-box;
+    margin: 15px 15px;
+    border-top: solid rgba(0, 0, 0, 0.5) 1px;
+    border-bottom: solid rgba(0, 0, 0, 0.5) 1px;
+    padding: 15px 0px ;
+}
+
+.Recommend header{
+    opacity: 0.5;
+}
+
+.Recommend div{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.Open_chat{
+    display: flex;
+    flex-direction: column;
+}
+
+.Open_chat header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.Open_chat header > span{
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.Open_chat header > div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Open_chat header > div > span{
+    font-size: 14px;
+    opacity: 0.5;
+    margin-right: 15px;
+}
+
+.Open_chat header > div > i{
+    opacity: 0.5;
+}
+
+.Open_chat__contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    align-items: center;
+}
+
+.Open_chat__contents__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Open_chat__contents__text > span:first-child{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.Open_chat__contents__text > span:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.Open_chat__contents__text_div{
+    display: flex;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.Open_chat__contents__text_div div{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 2px;
+    margin: 0px 15px ;
+}
+
+.Open_chat__contents__photo{
+    position: relative;
+}
+
+.Open_chat__contents__photo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+}
+
+.Open_chat__contents__photo__like{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 3px 5px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    
+}
+
+.Open_chat__contents__photo__like span{
+    margin-left: 5px;
+}
